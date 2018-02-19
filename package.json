@@ -1,0 +1,31 @@
+{
+  "name": "bot-bot",
+  "version": "1.0.0",
+  "description": "bot-bot is an all around automater",
+  "author": "Aditya Agarwal <adityaa803@gmail.com> (adi.surge.sh)",
+  "license": "ISC",
+  "repository": "https://github.com/itaditya/my-first-gh-probot-app.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "start:dev": "nodemon --exec \"npm start\"",
+    "probot": "probot",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
