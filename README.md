@@ -1,4 +1,4 @@
-# my-first-app
+# bot-bot
 
 > a GitHub App built with [probot](https://github.com/probot/probot) that is used for all round automation for my personal use. 
 
