@@ -4,15 +4,17 @@
   "description": "bot-bot is an all around automater",
   "author": "Aditya Agarwal <adityaa803@gmail.com> (adi.surge.sh)",
   "license": "ISC",
-  "repository": "https://github.com/itaditya/my-first-gh-probot-app.git",
+  "repository": "https://github.com/itaditya/bot-bot.git",
   "scripts": {
     "start": "probot run ./index.js",
-    "start:dev": "nodemon --exec \"npm start\"",
+    "start:dev": "nodemon --exec \"npm start -- -a 10318 -P private-key-dev.pem -W https://smee.io/adi-1\"",
     "probot": "probot",
     "test": "jest && standard"
   },
   "dependencies": {
-    "probot": "^4.1.0"
+    "probot": "^4.1.0",
+    "probot-scheduler": "^1.0.3",
+    "twilio": "^3.14.0"
   },
   "devDependencies": {
     "jest": "^21.2.1",
